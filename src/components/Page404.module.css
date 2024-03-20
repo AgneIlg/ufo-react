@@ -1,0 +1,56 @@
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    display: inline-block;  
+    width: 50%; 
+    margin-top: 10%; 
+    margin-left: 25%;
+}
+
+.containerBody {
+    width: 40%; 
+    float: left;
+    margin-top: 50px;
+}
+
+.title {
+    display: inline-block;
+    margin: 0;
+    font-size: 80px;
+    font-family: Arial;
+    color: blue;
+}
+
+.text {
+    margin: 0;
+    font-size: 30px;
+    font-family: Tahoma;
+    text-transform: uppercase;
+}
+
+.goHome{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: blue;
+    border: 3px solid blue;
+    border-radius: 50px;
+}
+
+.logo {
+    width: 60%; 
+    float: right; 
+}
